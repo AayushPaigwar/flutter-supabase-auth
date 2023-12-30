@@ -64,7 +64,7 @@ class _SignUpState extends State<SignUp> {
                   sm.showSnackBar(
                     const SnackBar(
                       content: Text(
-                          "Registered Successful, Please Sign In Here" /*${authResponse.user!.email!},*/),
+                          "Please verify mail, Sign In Here" /*${authResponse.user!.email!},*/),
                     ),
                   );
 
